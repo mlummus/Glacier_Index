@@ -34,7 +34,7 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia
 2. all_rgi_glac_mass_monthly_ensemble_ssp585.nc
 3. all_rgi_glac_mass_monthly_GFDL-SPEAR-MED_ssp245.nc
 4. all_rgi_glac_mass_monthly_GFDL-SPEAR-MED_ssp585.nc
-5. ll_rgi_glac_runoff_monthly_ensemble_ssp245.nc
+5. all_rgi_glac_runoff_monthly_ensemble_ssp245.nc
 6. all_rgi_glac_runoff_monthly_ensemble_ssp585.nc
 7. all_rgi_glac_runoff_monthly_GFDL-SPEAR-MED_ssp245.nc
 8. all_rgi_glac_runoff_monthly_GFDL-SPEAR-MED_ssp585.nc
