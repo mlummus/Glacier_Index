@@ -1,5 +1,5 @@
 # Glacier_Index
-Code used to create a Glacio-Hydrologic Index for High Mountain Asia
+Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data needed to execute this code can be found on Zenodo at DOI: 10.5281/zenodo.18686202
 
 # Python File Descriptions
 ## combine_pygem_batches.py
