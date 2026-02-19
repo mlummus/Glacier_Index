@@ -45,4 +45,4 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 ## fix_g.py
 `fix_g.py` was used to ensure that G calculations were based on water volumes.
 ## save_combined_netcdf.py
-`save_combined_netcdf.py`combines the climate models into one dataset. Combines the GFDL-SPEAR-MED realizations into one dataset.
+`save_combined_netcdf.py`combines the Glacier Index datasets created with the different climate models into one dataset. Combines the Glacier Index created with different GFDL-SPEAR-MED realizations into one dataset.
