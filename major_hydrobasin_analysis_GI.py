@@ -95,14 +95,6 @@ maj_g = maj_g.drop('index_right', axis = 1)
 merged = pd.merge(maj_g, major[["MAJ_NAME","geometry"]], left_index=True, right_on='MAJ_NAME')
 fall = merged.set_index("MAJ_NAME")
 
-# pr = gpd.GeoDataFrame(ds_245.precipitation_v.mean(dim="model").isel(time=1)).set_geometry(pts).set_crs("EPSG:4326")
-# combined = pr.sjoin(major[["MAJ_NAME","geometry"]],how='left')
-# combined = combined.drop('geometry',axis=1)
-# maj_g = combined.groupby("MAJ_NAME").mean()
-# maj_g = maj_g.drop('index_right', axis = 1)
-# merged = pd.merge(maj_g, major[["MAJ_NAME","geometry"]], left_index=True, right_on='MAJ_NAME')
-# precip = merged.set_index("MAJ_NAME")
-
 #%% Plots all seasons in one figure  
 
 cmap = matplotlib.cm.Blues
@@ -131,7 +123,6 @@ gsu.plot(ax=ax3, column = gsu[81], vmin=0, vmax=1, cmap = cmap, edgecolor = "bla
 summer.plot(ax = ax3, facecolor = "none", edgecolor = "black", linewidth=0.1)
 
 fall = fall.set_geometry("geometry")
-# fall= fall.reset_index()
 fall.plot(ax = ax4, column = fall[81], vmin = 0, vmax = 1, 
                   cmap = cmap, edgecolor = "black", linewidth=0.1)
 gf.plot(ax=ax4, column = gf[81], vmin=0, vmax=1, cmap = cmap, edgecolor = "black", linewidth=0.1)
