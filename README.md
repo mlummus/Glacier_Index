@@ -46,3 +46,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 `fix_g.py` was used to ensure that G calculations were based on water volumes.
 ## save_combined_netcdf.py
 `save_combined_netcdf.py`combines the Glacier Index datasets created with the different climate models into one dataset. Combines the Glacier Index created with different GFDL-SPEAR-MED realizations into one dataset.
+
+## major_hydrobasin_analysis_GI.py
+`create_basin_dataframe.py` creates Figure 2 of the manuscript.  Used to compare the Glacier Index in the small-scale basins vs the major hydro-basins. Can be edited for any season and both SSPs. Note: The basin & mountain range labels in Figure 2 were added later in Illustrator
