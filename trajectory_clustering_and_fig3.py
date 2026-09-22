@@ -128,7 +128,7 @@ fig.legend(legend_handles, season_color.keys(), loc="lower center", ncol=4,
            bbox_to_anchor=(0.29, -0.02), fontsize=9, frameon=False, title="Season of Max GI")
 
 
-#%% 4. Map panel: polygons colored by cluster + Ganges-Brahmaputra outline 
+#%% Map panel: polygons colored by cluster + Ganges-Brahmaputra outline 
 
 ax_map = fig.add_subplot(gs_fig[:, 1])
 
