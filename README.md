@@ -52,3 +52,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## trajectory_clustering_and_fig3.py
 `trajectory_clustering_and_fig3.py` creates Figure 3 of the manuscript. Uses kmeans clustering to group the trajectory of the Glacier Index of each basin into three groups: steady decline, stability, and rapid collapse. Plots the clusters with representative basins for each group, chosen for their proximity in the same major basin. Each basin also has the season of maximum G throughout the timeseries plotted in a strip beneath the respective graphs. Plots a map of all the basins colored by cluster.
+
+## relative_change.py
+`relative_change.py` helps create Figure 4 of the manuscript. Finds the relative change of each of the seasons from the beginning of the century to the end. There are plot options for different types of plots: One figure that shows a map of each of the 4 seasons, one figure that compares the SSPs of one season, and one that just shows one map of the relative change. The code can be edited to plot Glacier Storage and Glacier Yield. We used the last section to create the maps that were then put into illustrator and resized to make Figure 4.
