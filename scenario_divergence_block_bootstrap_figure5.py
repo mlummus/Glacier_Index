@@ -19,7 +19,7 @@ FILES = {"SSP2-4.5": "F:/HMA_glacio_hydro_index/gindex_all_models_scenarioSSP2-4
 
 
 #%% Load both scenarios, compute basin-level summer G at 2100
-#    (2090-2100 mean, consistent with the rest of the manuscript)
+#    (2090-2100 mean)
 
 data = {}
 for ssp, path in FILES.items():
