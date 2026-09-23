@@ -58,3 +58,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## scenario_divergence_block_bootstrap_figure5.py
 `scenario_divergence_block_bootstrap_figure5.py` creates Figure 5 of the manuscript. We pair each basin's 2100 summer Glacier Index under SSP2-4.5 with its value under SSP5-8.5, grouped basins into the four magnitude categories, and tested the mean scenario difference within each group. We use a spatial block-bootstrap to measure the confidence interval of out findings. We also compare the two scenarios with a 1-to-1 line to demonstrate how each magnitude category differs between scenarios.
+
+## figure6_ssp_compare_timeseries_with_ribbon.py
+`figure6_ssp_compare_timeseries_with_ribbon.py` creates Figure 6 of the manuscript. Here we compare the different scenarios of four example basins from the different magnitude categories. We show the season of maximum G for every year between 2015-2100 in a strip below each example.
