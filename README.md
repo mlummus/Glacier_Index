@@ -55,3 +55,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## relative_change.py
 `relative_change.py` helps create Figure 4 of the manuscript. Finds the relative change of each of the seasons from the beginning of the century to the end. There are plot options for different types of plots: One figure that shows a map of each of the 4 seasons, one figure that compares the SSPs of one season, and one that just shows one map of the relative change. The code can be edited to plot Glacier Storage and Glacier Yield. We used the last section to create the maps that were then put into illustrator and resized to make Figure 4.
+
+## scenario_divergence_block_bootstrap_figure5.py
+`scenario_divergence_block_bootstrap_figure5.py` creates Figure 5 of the manuscript. We pair each basin's 2100 summer Glacier Index under SSP2-4.5 with its value under SSP5-8.5, grouped basins into the four magnitude categories, and tested the mean scenario difference within each group. We use a spatial block-bootstrap to measure the confidence interval of out findings. We also compare the two scenarios with a 1-to-1 line to demonstrate how each magnitude category differs between scenarios.
