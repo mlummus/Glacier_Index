@@ -73,3 +73,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## GCM_standard_deviation.py
 `GCM_standard_deviation.py` Calculates and plots the standard deviation across the GCMs. Used to make Supplementary Figures 3 and 4.
+
+## sensitivity_suite.py
+`sensitivity_suite.py` is a heavy hitter. This code does the weight sweep, Monte Carlo simulation to analyze the functional form of the Glacier Index averaging, variance decomposition, divergence between scenarios, and seasonal breakdown. Analysis done here informs section 2.4 of the manuscript.
