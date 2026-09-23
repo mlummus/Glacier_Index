@@ -61,3 +61,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## figure6_ssp_compare_timeseries_with_ribbon.py
 `figure6_ssp_compare_timeseries_with_ribbon.py` creates Figure 6 of the manuscript. Here we compare the different scenarios of four example basins from the different magnitude categories. We show the season of maximum G for every year between 2015-2100 in a strip below each example.
+
+## figure7_index_formulation.py
+`figure7_index_formulation.py` Contour plot of Glacier Index over the full [0,1]x[0,1] Yield-Storage space, with three annotated example points along the G=0.5 contour (Storage=0.95/Yield=0.05; Storage=0.50/Yield=0.50; Storage=0.05/Yield=0.95) showing that a single Glacier Index value can result from very different underlying physical situations. Actual basin-month Storage/Yield pairs are scattered lightly in the background for context
