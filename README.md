@@ -64,3 +64,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## figure7_index_formulation.py
 `figure7_index_formulation.py` Contour plot of Glacier Index over the full [0,1]x[0,1] Yield-Storage space, with three annotated example points along the G=0.5 contour (Storage=0.95/Yield=0.05; Storage=0.50/Yield=0.50; Storage=0.05/Yield=0.95) showing that a single Glacier Index value can result from very different underlying physical situations. Actual basin-month Storage/Yield pairs are scattered lightly in the background for context
+
+## climate_drivers_fig8.py
+`climate_drivers_fig8.py` Climatic driver attribution for Glacier Index change. Disentangles the independent roles of temperature change and precipitation change in driving relative Glacier Index change (multivariate regression, spatially-aware CIs, collinearity check). Classifies basins by monsoon vs. westerlies dominance (summer share of annual precipitation) and tests whether climatic driver importance differs between regimes. Figures 'fig8_panelA_monsoon_map' and 'fig_climate_driver_coefficients' are used to create Figure 8 of the maunscript
