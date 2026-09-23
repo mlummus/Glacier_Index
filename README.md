@@ -48,7 +48,7 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 `save_combined_netcdf.py`combines the Glacier Index datasets created with the different climate models into one dataset. Combines the Glacier Index created with different GFDL-SPEAR-MED realizations into one dataset.
 
 ## major_hydrobasin_analysis_GI.py
-`create_basin_dataframe.py` creates Figure 2 of the manuscript. Used to compare the Glacier Index in the small-scale basins vs the major hydro-basins. Can be edited for any season and both SSPs. Note: The basin & mountain range labels in Figure 2 were added later in Illustrator
+`major_hydrobasin_analysis_GI.py` creates Figure 2 of the manuscript. Used to compare the Glacier Index in the small-scale basins vs the major hydro-basins. Can be edited for any season and both SSPs. Note: The basin & mountain range labels in Figure 2 were added later in Illustrator
 
 ## trajectory_clustering_and_fig3.py
 `trajectory_clustering_and_fig3.py` creates Figure 3 of the manuscript. Uses kmeans clustering to group the trajectory of the Glacier Index of each basin into three groups: steady decline, stability, and rapid collapse. Plots the clusters with representative basins for each group, chosen for their proximity in the same major basin. Each basin also has the season of maximum G throughout the timeseries plotted in a strip beneath the respective graphs. Plots a map of all the basins colored by cluster.
