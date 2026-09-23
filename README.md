@@ -70,3 +70,6 @@ Code used to create a Glacio-Hydrologic Index for High Mountain Asia. Data neede
 
 ## GI_stats_correlations.py
 `GI_stats_correlations.py` Spatial autocorrelation, confidence intervals, multivariate analysis, and collinearity for the Glacier Index vs. glacier-characteristics correlations. Analysis done here is reported in manuscript Table 2
+
+## GCM_standard_deviation.py
+`GCM_standard_deviation.py` Calculates and plots the standard deviation across the GCMs. Used to make Supplementary Figures 3 and 4.
